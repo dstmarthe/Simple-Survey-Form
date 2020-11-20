@@ -2,7 +2,6 @@ body {
     font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
     width: 100%;
     background-color: rgb(167, 184, 241);
-
 }
 
 main {
@@ -20,7 +19,7 @@ h1 {
     color: white;
 }
 #survey-form {
-    border: 1px solid gray;
+    border: 1px solid rgb(161, 159, 159);
     border-radius: 10px;
     background-color: white;
     padding: 25px;
@@ -40,7 +39,8 @@ input[type=email],
     width: 300px;
     padding: 1px;
 }
-input[type=text]:focus {
+input[type=text]:focus,
+input[type=email]:focus {
     width: 345px;
     height: 25px;
   }
